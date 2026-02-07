@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Capturador de Datos – PRO DEFINITIVO FULL</title>
+<title>Capturador de Datos</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
 <script src="https://unpkg.com/html5-qrcode"></script>
@@ -371,7 +371,8 @@ button.secondary{
 <div class="note">ℹ️ La ubicación es opcional</div>
 
 <div class="field">
- <input id="codigo" type="text" inputmode="numeric" placeholder="Código" oninput="buscarDescripcion();previewIngreso()">
+ <input id="codigo" type="text" placeholder="Código"oninput="buscarDescripcion();previewIngreso()">
+
  <button class="qrbtn" onclick="scanCodigo()">📷</button>
  <button class="flashqr" onclick="toggleTorch()">🔦</button>
 </div>
