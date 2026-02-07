@@ -1,0 +1,1 @@
+# capturador5.0
